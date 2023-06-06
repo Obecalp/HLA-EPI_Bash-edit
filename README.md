@@ -42,6 +42,7 @@ In output is given a csv file containing:
 -  The total count of mismatch by allele, then class, then both class together.
 - The listing of all eplet by allele
 - the patient allele (as reminder)
+
 Some eplet are shared by different HLA allele (B and A, etc...) they are compensated, meaning if there is an eplet isn't present in an HLA allele but in an another one it won't be considerated as a mismatch (Meaning it may have some total class I < A + B + C
 
 #Note
