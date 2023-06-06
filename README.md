@@ -3,7 +3,8 @@ Re-edition of HLA-EPI in Bash
 
 #Introduction
 
-Epitopes are parts of the proteins corresponding to the allele that are particulary immunogen, meaning many an allele can contain many epitopes. \n
+Epitopes are parts of the proteins corresponding to the allele that are particulary immunogen, meaning many an allele can contain many epitopes.
+
 The polymorph part of an epitope is called a Eplet, which are 1-5 amino-acid.
 
 It has been observed that the more there were epitopes' mismatch between two patients, the more a DSA production would be susceptible to happend after a transplantation. (See more at https://pubmed.ncbi.nlm.nih.gov/24769079/ or from René J. Duquesnoy)
@@ -33,7 +34,7 @@ HLA;allele;eplet;exposition;verification as C;0101;YC,t,f
 
 
 
-There is no need to have any header, but if there is one in patients file, it has to contain exactly ID_group, or a line full of "0" will appear (without any other consequence actually) \n
+There is no need to have any header, but if there is one in patients file, it has to contain exactly ID_group, or a line full of "0" will appear (without any other consequence actually)
 However, it is required to respect every field order for both file.
 
 #Output
