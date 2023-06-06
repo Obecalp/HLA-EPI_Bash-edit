@@ -17,10 +17,12 @@ The re-edition in bash main to replace the multiple reasearch function wich may 
 
 #Utilisation \n
 
-Currently, HLA.sh respect every aspect of HLA-EPI, this mean it is only possible to evaluate A,B,C,DQ1,DRB1,DQA1,DPB1 alleles. However, the "extended option" is automatic, meaning DRB1 and DQA1 will be calculated (and will return 0 if nothing is given). Imputation hasn't been implemented yet, meaning every alleles fields has to be completed (or the comparaison for this field for this patient and the total count for this patient will be corrupted, there won't have any other consequence). \n
+Currently, HLA.sh respect every aspect of HLA-EPI, this mean it is only possible to evaluate A,B,C,DQ1,DRB1,DQA1,DPB1 alleles. However, the "extended option" is automatic, meaning DRB1 and DQA1 will be calculated (and will return 0 if nothing is given). Imputation hasn't been implemented yet, meaning every alleles fields has to be completed (or the comparaison for this field for this patient and the total count for this patient will be corrupted, there won't have any other consequence).
+
 
 #Input: \n
-The aim is to make it easy to use it too. For this are required two files: \n
+The aim is to make it easy to use it too. For this are required two files:
+
 - A csv file containing all patients haplotype data (as for HLA-EPI initial tool) as : \n group_ID;patient_id;status(R/D);A1;A2;B1;B2;C1;C2;DR1;DR2;DQ1;DQ2;DQA1;DQA2;DP1;DP2 as: \n
 group1;patient1;D;0101;0102;5020;0109;0101;0102;0101;5020;0109;0102;5020;0109;5020;0109; \n
 group1;patient2;R;0203;0105;5020;0102;5020;0109;0203;0105;0203;0105;0203;0105;0203;0105; \n
