@@ -10,7 +10,7 @@ The polymorph part of an epitope is called a Eplet, which are 1-5 amino-acid.
 It has been observed that the more there were epitopes' mismatch between two patients, the more a DSA production would be susceptible to happend after a transplantation. (See more at https://pubmed.ncbi.nlm.nih.gov/24769079/ or from René J. Duquesnoy)
 
 
-HLA-EPI aims to establish a "matching" score between a patient and a donor for a transplantation, based on the epitopes carried by their alleles. It is currently available on easy-HLA (https://hla.univ-nantes.fr/index.php#). Its mains advantages are the fact it is pretty easy to use for any user, and the presence of multiples reasearch, which permit to establish mismatching simultaneously many couples of patients.
+HLA-EPI aims to establish a "matching" score between a patient and a donor for a transplantation, based on the epitopes carried by their alleles. It is currently available on easy-HLA (https://hla.univ-nantes.fr/index.php#). Its mains advantages are the fact it is pretty easy to use for any user, and the presence of the multiple reasearch function, which permit to establish mismatching simultaneously many couples of patients.
 However, HLA-EPI is currently coded in php, and the it could be optimized in other languages.
 
 
