@@ -16,12 +16,11 @@ However, HLA-EPI is currently coded in php, and the it could be optimized in oth
 
 The re-edition in bash main to replace the multiple reasearch function wich may be a little bit too slow for too many patients, and sometimes instable on php. It is strongly faster, stable, and can carry as much patients as desired.
 
-#Utilisation
+# Utilisation
 
 Currently, HLA.sh respect every aspect of HLA-EPI, this mean it is only possible to evaluate A,B,C,DQ1,DRB1,DQA1,DPB1 alleles. However, the "extended option" is automatic, meaning DRB1 and DQA1 will be calculated (and will return 0 if nothing is given). Imputation hasn't been implemented yet, meaning every alleles fields has to be completed (or the comparaison for this field for this patient and the total count for this patient will be corrupted, there won't have any other consequence).
 
-
-#Input:
+# Input:
 The aim is to make it easy to use it too. For this are required two files:
 
 - A csv file containing all patients haplotype data (as for HLA-EPI initial tool) as :
@@ -37,7 +36,7 @@ HLA;allele;eplet;exposition;verification as C;0101;YC,t,f
 There is no need to have any header, but if there is one in patients file, it has to contain exactly ID_group, or a line full of "0" will appear (without any other consequence actually)
 However, it is required to respect every field order for both file.
 
-#Output
+# Output
 
 In output is given a csv file containing:
 -  The total count of mismatch by allele, then class, then both class together.
