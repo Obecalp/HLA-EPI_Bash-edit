@@ -1,7 +1,7 @@
 # HLA-EPI_Bash-edit
 Re-edition of HLA-EPI in Bash
 
-#Introduction
+# Introduction
 
 Epitopes are parts of the proteins corresponding to the allele that are particulary immunogen, meaning many an allele can contain many epitopes.
 
@@ -45,6 +45,6 @@ In output is given a csv file containing:
 
 Some eplet are shared by different HLA allele (B and A, etc...) they are compensated, meaning if there is an eplet isn't present in an HLA allele but in an another one it won't be considerated as a mismatch (Meaning it may have some total class I < A + B + C
 
-#Note
-The epitope data file can be obtained with the script multiplet.sh, which will be soon distributed here
+# Note
+The epitope data file can be obtained with the script multiplet.sh https://github.com/Obecalp/HLA-EPregistry_uploading
 
